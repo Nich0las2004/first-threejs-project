@@ -5,9 +5,12 @@ const Cube = () => {
   const cubeRef = useRef();
 
   useFrame(() => {
-    cubeRef.current.rotation.x += 0.01;
-    cubeRef.current.rotation.y += 0.01;
-    cubeRef.current.rotation.z += 0.01;
+    if (cubeRef.current) {
+      cubeRef.current.rotation.x += 0.01;
+      cubeRef.current.rotation.y += 0.01;
+      cubeRef.current.rotation.z += 0.01;
+      
+    }
   });
 
   return (
