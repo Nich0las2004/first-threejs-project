@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/first-threejs-project/static/css/main.32919279.css",
+    "main.js": "/first-threejs-project/static/js/main.fada2ae0.js",
+    "index.html": "/first-threejs-project/index.html",
+    "main.32919279.css.map": "/first-threejs-project/static/css/main.32919279.css.map",
+    "main.fada2ae0.js.map": "/first-threejs-project/static/js/main.fada2ae0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32919279.css",
+    "static/js/main.fada2ae0.js"
+  ]
+}
